@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_old"
+        android:icon="@drawable/ic_recents"
+
+        android:title="Past Records" />
+
+    <item
+        android:icon="@drawable/home"
+        android:id="@+id/navigation_home"
+        android:title="Home" />
+
+    <item
+        android:icon="@drawable/ss"
+        android:title="New Application"
+        android:id="@+id/navigation_new"
+        />
+
+    <item
+        android:icon="@drawable/lg"
+        android:title="Logout"
+        android:id="@+id/logout"
+        />
+
+
+</menu>

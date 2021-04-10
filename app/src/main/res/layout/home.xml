@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="3dp"
+        android:text="About Us:"
+        android:textColor="#000000"
+        />
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:text="      Sopra Steria, a European leader in digital transformation, provides end-to-end service offerings on the market: consulting, systems integration, software development, infrastructure management and business process services. India is an Integral part of Sopra Steria’s global business strategy. We have a strong local presence in India with more than 5,000 people working across 4 delivery centers: Noida, Bangalore, Chennai and Pune."
+        android:textColor="#716767"
+        />
+
+
+
+</LinearLayout>

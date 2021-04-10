@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DLeave</string>
+    <string name="title_old">Old</string>
+    <string name="title_home">Home</string>
+    <string name="title_new">New</string>
+</resources>
